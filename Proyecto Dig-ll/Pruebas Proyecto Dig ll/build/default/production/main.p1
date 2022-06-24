@@ -1,0 +1,422 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"1438 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\../include/proc/pic16f877.h
+[s S59 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S59 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"1437
+[u S58 `S59 1 ]
+[n S58 . . ]
+"1449
+[v _TRISCbits `VS58 ~T0 @X0 0 e@135 ]
+"1993
+[s S82 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S82 . TX9D TRMT BRGH . SYNC TXEN TX9 CSRC ]
+"2003
+[s S83 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S83 . TXD8 . nTX8 ]
+"2008
+[s S84 :6 `uc 1 :1 `uc 1 ]
+[n S84 . . TX8_9 ]
+"1992
+[u S81 `S82 1 `S83 1 `S84 1 ]
+[n S81 . . . . ]
+"2013
+[v _TXSTAbits `VS81 ~T0 @X0 0 e@152 ]
+"2068
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"965
+[s S39 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S39 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"975
+[s S40 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S40 . RCD8 . RC9 ]
+"980
+[s S41 :6 `uc 1 :1 `uc 1 ]
+[n S41 . . nRC8 ]
+"984
+[s S42 :6 `uc 1 :1 `uc 1 ]
+[n S42 . . RC8_9 ]
+"964
+[u S38 `S39 1 `S40 1 `S41 1 `S42 1 ]
+[n S38 . . . . . ]
+"989
+[v _RCSTAbits `VS38 ~T0 @X0 0 e@24 ]
+"538
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S21 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF PSPIF ]
+"537
+[u S20 `S21 1 ]
+[n S20 . . ]
+"549
+[v _PIR1bits `VS20 ~T0 @X0 0 e@12 ]
+"1061
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+[p mainexit ]
+"1370
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"216
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"284
+[s S10 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S10 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"283
+[u S9 `S10 1 ]
+[n S9 . . ]
+"295
+[v _PORTCbits `VS9 ~T0 @X0 0 e@7 ]
+"222
+[s S8 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S8 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"221
+[u S7 `S8 1 ]
+[n S7 . . ]
+"233
+[v _PORTBbits `VS7 ~T0 @X0 0 e@6 ]
+"54 C:/Program Files (x86)/Microchip/MPLABX/v5.35/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\../include/proc/pic16f877.h
+[; <" INDF equ 00h ;# ">
+"61
+[; <" TMR0 equ 01h ;# ">
+"68
+[; <" PCL equ 02h ;# ">
+"75
+[; <" STATUS equ 03h ;# ">
+"161
+[; <" FSR equ 04h ;# ">
+"168
+[; <" PORTA equ 05h ;# ">
+"218
+[; <" PORTB equ 06h ;# ">
+"280
+[; <" PORTC equ 07h ;# ">
+"342
+[; <" PORTD equ 08h ;# ">
+"404
+[; <" PORTE equ 09h ;# ">
+"436
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; <" PIR2 equ 0Dh ;# ">
+"629
+[; <" TMR1 equ 0Eh ;# ">
+"636
+[; <" TMR1L equ 0Eh ;# ">
+"643
+[; <" TMR1H equ 0Fh ;# ">
+"650
+[; <" T1CON equ 010h ;# ">
+"727
+[; <" TMR2 equ 011h ;# ">
+"734
+[; <" T2CON equ 012h ;# ">
+"805
+[; <" SSPBUF equ 013h ;# ">
+"812
+[; <" SSPCON equ 014h ;# ">
+"882
+[; <" CCPR1 equ 015h ;# ">
+"889
+[; <" CCPR1L equ 015h ;# ">
+"896
+[; <" CCPR1H equ 016h ;# ">
+"903
+[; <" CCP1CON equ 017h ;# ">
+"961
+[; <" RCSTA equ 018h ;# ">
+"1056
+[; <" TXREG equ 019h ;# ">
+"1063
+[; <" RCREG equ 01Ah ;# ">
+"1070
+[; <" CCPR2 equ 01Bh ;# ">
+"1077
+[; <" CCPR2L equ 01Bh ;# ">
+"1084
+[; <" CCPR2H equ 01Ch ;# ">
+"1091
+[; <" CCP2CON equ 01Dh ;# ">
+"1149
+[; <" ADRESH equ 01Eh ;# ">
+"1156
+[; <" ADCON0 equ 01Fh ;# ">
+"1252
+[; <" OPTION_REG equ 081h ;# ">
+"1322
+[; <" TRISA equ 085h ;# ">
+"1372
+[; <" TRISB equ 086h ;# ">
+"1434
+[; <" TRISC equ 087h ;# ">
+"1496
+[; <" TRISD equ 088h ;# ">
+"1558
+[; <" TRISE equ 089h ;# ">
+"1615
+[; <" PIE1 equ 08Ch ;# ">
+"1677
+[; <" PIE2 equ 08Dh ;# ">
+"1710
+[; <" PCON equ 08Eh ;# ">
+"1744
+[; <" SSPCON2 equ 091h ;# ">
+"1806
+[; <" PR2 equ 092h ;# ">
+"1813
+[; <" SSPADD equ 093h ;# ">
+"1820
+[; <" SSPSTAT equ 094h ;# ">
+"1989
+[; <" TXSTA equ 098h ;# ">
+"2070
+[; <" SPBRG equ 099h ;# ">
+"2077
+[; <" ADRESL equ 09Eh ;# ">
+"2084
+[; <" ADCON1 equ 09Fh ;# ">
+"2137
+[; <" EEDATA equ 010Ch ;# ">
+"2144
+[; <" EEADR equ 010Dh ;# ">
+"2151
+[; <" EEDATH equ 010Eh ;# ">
+"2158
+[; <" EEADRH equ 010Fh ;# ">
+"2165
+[; <" EECON1 equ 018Ch ;# ">
+"2210
+[; <" EECON2 equ 018Dh ;# ">
+"13 ./UART.h
+[p x FOSC  =  XT         ]
+"14
+[p x WDTE  =  OFF        ]
+"15
+[p x PWRTE  =  OFF       ]
+"16
+[p x CP  =  OFF          ]
+"17
+[p x BOREN  =  ON        ]
+"18
+[p x LVP  =  OFF         ]
+"19
+[p x CPD  =  OFF         ]
+"20
+[p x WRT  =  OFF         ]
+"43
+[; ;./UART.h: 43: void UART_init(void)
+[v _UART_init `(v ~T0 @X0 1 ef ]
+"44
+[; ;./UART.h: 44: {
+{
+[e :U _UART_init ]
+[f ]
+"45
+[; ;./UART.h: 45:     TRISCbits.TRISC7 = 1;
+[e = . . _TRISCbits 0 7 -> -> 1 `i `uc ]
+"46
+[; ;./UART.h: 46:     TRISCbits.TRISC6 = 0;
+[e = . . _TRISCbits 0 6 -> -> 0 `i `uc ]
+"48
+[; ;./UART.h: 48:     TXSTAbits.SYNC = 0;
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"49
+[; ;./UART.h: 49:     TXSTAbits.TX9 = 0;
+[e = . . _TXSTAbits 0 6 -> -> 0 `i `uc ]
+"50
+[; ;./UART.h: 50:     TXSTAbits.BRGH = 1;
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"51
+[; ;./UART.h: 51:     SPBRG = 129;
+[e = _SPBRG -> -> 129 `i `uc ]
+"52
+[; ;./UART.h: 52:     RCSTAbits.SPEN = 1;
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"53
+[; ;./UART.h: 53:     TXSTAbits.TXEN = 1;
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"54
+[; ;./UART.h: 54:     RCSTAbits.CREN = 1;
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"55
+[; ;./UART.h: 55: }
+[e :UE 91 ]
+}
+"57
+[; ;./UART.h: 57: char UART_read(void)
+[v _UART_read `(uc ~T0 @X0 1 ef ]
+"58
+[; ;./UART.h: 58: {
+{
+[e :U _UART_read ]
+[f ]
+"59
+[; ;./UART.h: 59:     if (PIR1bits.RCIF == 1)
+[e $ ! == -> . . _PIR1bits 0 5 `i -> 1 `i 93  ]
+"60
+[; ;./UART.h: 60:         return RCREG;
+[e ) -> _RCREG `uc ]
+[e $UE 92  ]
+[e $U 94  ]
+"61
+[; ;./UART.h: 61:     else
+[e :U 93 ]
+"62
+[; ;./UART.h: 62:         return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 92  ]
+[e :U 94 ]
+"63
+[; ;./UART.h: 63: }
+[e :UE 92 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"18 main.c
+[; ;main.c: 18: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"19
+[; ;main.c: 19:     TRISCbits.TRISC0 = 1;
+[e = . . _TRISCbits 0 0 -> -> 1 `i `uc ]
+"20
+[; ;main.c: 20:     char dato_rx;
+[v _dato_rx `uc ~T0 @X0 1 a ]
+"21
+[; ;main.c: 21:     TRISB = 0B11110000;
+[e = _TRISB -> -> 240 `i `uc ]
+"22
+[; ;main.c: 22:     PORTB = 0X00;
+[e = _PORTB -> -> 0 `i `uc ]
+"23
+[; ;main.c: 23:     UART_init();
+[e ( _UART_init ..  ]
+"26
+[; ;main.c: 26:     while(1)
+[e :U 97 ]
+"27
+[; ;main.c: 27:     {
+{
+"28
+[; ;main.c: 28:         if(PORTCbits.RC0 == 1)
+[e $ ! == -> . . _PORTCbits 0 0 `i -> 1 `i 99  ]
+"29
+[; ;main.c: 29:          {
+{
+"30
+[; ;main.c: 30:              PORTBbits.RB3 = 0XFF ;
+[e = . . _PORTBbits 0 3 -> -> 255 `i `uc ]
+"31
+[; ;main.c: 31:          }
+}
+[e :U 99 ]
+"32
+[; ;main.c: 32:         dato_rx = UART_read();
+[e = _dato_rx ( _UART_read ..  ]
+"34
+[; ;main.c: 34:         switch(dato_rx)
+[e $U 101  ]
+"35
+[; ;main.c: 35:         {
+{
+"36
+[; ;main.c: 36:             case 'A':
+[e :U 102 ]
+"37
+[; ;main.c: 37:                 PORTBbits.RB0 = 1;
+[e = . . _PORTBbits 0 0 -> -> 1 `i `uc ]
+"39
+[; ;main.c: 39:                 break;
+[e $U 100  ]
+"41
+[; ;main.c: 41:             case 'B':
+[e :U 103 ]
+"43
+[; ;main.c: 43:                 PORTBbits.RB0 = 0;
+[e = . . _PORTBbits 0 0 -> -> 0 `i `uc ]
+"44
+[; ;main.c: 44:                 break;
+[e $U 100  ]
+"46
+[; ;main.c: 46:             case 'C':
+[e :U 104 ]
+"47
+[; ;main.c: 47:                 PORTBbits.RB1 = 1;
+[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
+"49
+[; ;main.c: 49:                      break;
+[e $U 100  ]
+"51
+[; ;main.c: 51:             case 'D':
+[e :U 105 ]
+"52
+[; ;main.c: 52:                 PORTBbits.RB1 = 0;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"54
+[; ;main.c: 54:                       break;
+[e $U 100  ]
+"56
+[; ;main.c: 56:             case 'E':
+[e :U 106 ]
+"57
+[; ;main.c: 57:                 PORTBbits.RB2 = 1;
+[e = . . _PORTBbits 0 2 -> -> 1 `i `uc ]
+"59
+[; ;main.c: 59:                      break;
+[e $U 100  ]
+"61
+[; ;main.c: 61:             case 'F':
+[e :U 107 ]
+"62
+[; ;main.c: 62:                 PORTBbits.RB2 = 0;
+[e = . . _PORTBbits 0 2 -> -> 0 `i `uc ]
+"64
+[; ;main.c: 64:                       break;
+[e $U 100  ]
+"66
+[; ;main.c: 66:             case'G':
+[e :U 108 ]
+"67
+[; ;main.c: 67:                 PORTBbits.RB3 = 1;
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+"69
+[; ;main.c: 69:                       break;
+[e $U 100  ]
+"71
+[; ;main.c: 71:              case'H':
+[e :U 109 ]
+"72
+[; ;main.c: 72:                 PORTBbits.RB3 = 0;
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"74
+[; ;main.c: 74:                       break;
+[e $U 100  ]
+"76
+[; ;main.c: 76:         }
+}
+[e $U 100  ]
+[e :U 101 ]
+[e [\ -> _dato_rx `i , $ -> -> 65 `ui `i 102
+ , $ -> -> 66 `ui `i 103
+ , $ -> -> 67 `ui `i 104
+ , $ -> -> 68 `ui `i 105
+ , $ -> -> 69 `ui `i 106
+ , $ -> -> 70 `ui `i 107
+ , $ -> -> 71 `ui `i 108
+ , $ -> -> 72 `ui `i 109
+ 100 ]
+[e :U 100 ]
+"77
+[; ;main.c: 77:     }
+}
+[e :U 96 ]
+[e $U 97  ]
+[e :U 98 ]
+"78
+[; ;main.c: 78:     return;
+[e $UE 95  ]
+"79
+[; ;main.c: 79: }
+[e :UE 95 ]
+}
